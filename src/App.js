@@ -14,18 +14,21 @@ import Post_four from "./components/post_four/Post_four";
 import SignIn from "./components/signIn/SignIn";
 import "./App.css";
 import Post_five from "./components/Post_five/Post_five";
+import {useState} from "react"
 
 
 function App(){
+
+    const [isModal,setIsModal] = useState(false);
 
     return <div>
         <Navbar/>
         <Home/>
         
-        <Nav/>
+        <Nav isModal={isModal}/>
         <Post/>
         <Post_two/>
-        <SignIn/>
+        <SignIn isModal={isModal}/>
         <Post_five/>
         
 

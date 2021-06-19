@@ -6,32 +6,32 @@ function Nav() {
     <>
       <div className="main-part container-fluid">
         <div className="nav-2">
-        <div className="secand-mobile-nav"> 
-                 <div className="d-flex justify-content-between">
-                <p
-                      className="nav-link nav-link-bold"
-                      area-aria-current="page" style={{color: "black"}}>
-                      
-                      
-                      All post(32) </p>
-                      <button
-                    type="button"
-                    className=" nav-btn2  btn btn-light"
-                    data-bs-toggle="modal"
-                    data-bs-target="#staticBackdrop">Filter All
-                    </button>
-                    </div>
-                    </div>
-                  
-                  
-                  
+          <div className="secand-mobile-nav">
+            <div className="d-flex justify-content-between">
+              <p
+                className="nav-link nav-link-bold"
+                area-aria-current="page"
+                style={{ color: "black" }}
+              >
+                All post(32){" "}
+              </p>
+              <button
+                type="button"
+                className=" nav-btn2  btn btn-light"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+              >
+                Filter All
+              </button>
+            </div>
+          </div>
 
-          <nav className="secand-nav navbar navbar-expand-lg navbar-light bg-light"
-            id="secand-nav">
-          
+          <nav
+            className="secand-nav navbar navbar-expand-lg navbar-light bg-light"
+            id="secand-nav"
+          >
             <div className="navigation container-fluid">
               <div className="secand-nav-container" id="navbarsupprtedcontent">
-                
                 <ul className="li-container navbar-nav me-auto">
                   <li className="nav-item nav-active-tab  id= nav-item-1">
                     <a
@@ -42,7 +42,6 @@ function Nav() {
                       {" "}
                       All post(32)
                     </a>
-                   
                   </li>
                   <li className="nav-item nav-active-tab  id= nav-item-2">
                     <a className="nav-link" area-itemn="page" href="#">
@@ -80,7 +79,6 @@ function Nav() {
                 </div>
               </div>
             </div>
-            
           </nav>
         </div>
 
@@ -88,10 +86,7 @@ function Nav() {
           <div className="left-part col-8">
             <div className="post-card">
               <div className="pc">
-                <img
-                  className="main-card-img"
-                  src="./image/Rect1.png"
-                ></img>
+                <img className="main-card-img" src="./image/rect1.png"></img>
               </div>
               <div style={{ padding: "1rem" }} className="pc-content">
                 <div className="pc-content-above ">
@@ -123,7 +118,7 @@ function Nav() {
                     <h4 style={{ padding: "5px" }}>sarthak </h4>
                   </div>
                   <div
-                    style={{padding: "4px", margin:"2.3rem 2.3rem"}}
+                    style={{ padding: "4px", margin: "2.3rem 2.3rem" }}
                     className=" d-flex justify-content-between"
                   >
                     <div
@@ -201,57 +196,64 @@ function Nav() {
               <div className="form-row">
                 <div className="  d-flex modal_login ">
                   <div className="mobile_close">
-                  <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
                   </div>
                   <div className="  create-acc-part">
                     <div className="login_container">
-               
-                    <div className=" d-flex justify-content-between " id="mobile-create-signin">
-                            <h3> Create Account  </h3>
-                            <h5> 
-                            <button type="button" style={{border: "none", background:"none"}} className=" nav-btn2  " data-bs-toggle="modal" data-bs-target="#staticBackdrops">
-        
-                                         Sign up</button>
-                              </h5>  
-                          </div>
+                      <div
+                        className=" d-flex justify-content-between "
+                        id="mobile-create-signin"
+                      >
+                        <h3> Create Account </h3>
+                        <h5>
+                          <button
+                            type="button"
+                            style={{ border: "none", background: "none" }}
+                            className=" nav-btn2  "
+                            data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrops"
+                          >
+                            Sign up
+                          </button>
+                        </h5>
+                      </div>
                       <h3 id="hide">Create Account </h3>
                       <div className=" name d-flex">
-                        <input className="input_name" placeholder="First Name" />
-                        <input className="input_name" placeholder="Secand Name" />
+                        <input
+                          className="input_name"
+                          placeholder="First Name"
+                        />
+                        <input
+                          className="input_name"
+                          placeholder="Secand Name"
+                        />
                       </div>
                       <div className=" other detail  ">
-                        <input className="w-100 input_name" placeholder="Email" />
-                        <input className="w-100 input_name" placeholder="Password" />
+                        <input
+                          className="w-100 input_name"
+                          placeholder="Email"
+                        />
+                        <input
+                          className="w-100 input_name"
+                          placeholder="Password"
+                        />
                         <input
                           className="w-100 input_name"
                           placeholder="Confirm Password"
                         />
                         <div
-                          onclick="create_acc()" 
+                          onclick="create_acc()"
                           id="modal-1-create-acc-btn"
                           class="modal-1-create-acc-btn"
                         >
-                          
                           Create Account
                         </div>
                       </div>
-                      {/* <h3>Create Account </h3>
-                   <div className=" name d-flex">
-                       <input className="" placeholder="first Name"/>
-                       <input placeholder="Secand Name"/>               
-                    </div>
-                    <div className=" other detail  ">
-                          <input className="w-100" placeholder="Email" /> 
-                          <input className="w-100" placeholder="Password" />
-                          <input className="w-100" placeholder="Confirm Password" />
-                          <div onclick="create_acc()" id="modal-1-create-acc-btn" class="modal-1-create-acc-btn">
-                                        Create Account
-                           </div> */}
                       <div className="signup-sm d-flex">
                         <img
                           style={{ margin: "7px" }}
@@ -284,12 +286,17 @@ function Nav() {
                     <p style={{ marginLeft: "1.5rem" }}>
                       {" "}
                       Already have an account ?
-                      <button style={{marginTop: "-3px ", color: "blue"}} type="button"  className=" nav-btn2  btn " data-bs-toggle="modal" data-bs-target="#staticBackdrops">
-                            Sign In
+                      <button
+                        style={{ marginTop: "-3px ", color: "blue" }}
+                        type="button"
+                        className=" nav-btn2  btn "
+                        data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrops"
+                        data-bs-dismiss="modal" aria-label="Close"
+
+                      >
+                        Sign In
                       </button>
-                  
-                       
-                    
                     </p>
                     <img src="image/illutrate.png" />
                   </div>
@@ -305,7 +312,6 @@ function Nav() {
           </div>
         </div>
       </div>
-    
     </>
   );
 }

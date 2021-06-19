@@ -41,7 +41,7 @@ function SignIn(){
                 <div style={{marginLeft:"2rem"}} className="right-content-form">
                     <p style={{marginLeft:"1.5rem"}} > Don't have an account yet ? 
                     
-                    <button style={{marginTop: "-3px ", color: "blue"}} type="button"  className=" nav-btn2  btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    <button style={{marginTop: "-3px ", color: "blue"}} type="button"  className=" nav-btn2  btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-dismiss="modal" aria-label="Close">
                     Create New Account </button>
                      </p>
                       <img src="image/illutrate.png" />
@@ -59,9 +59,9 @@ function SignIn(){
   </div>
 </div>
 
- <button type="button"  className=" nav-btn2 " data-bs-toggle="modal" data-bs-target="#staticBackdrops" data-dismiss="modal"    aria-labe="close"  >
+{/*<button type="button"  className=" nav-btn2 " data-bs-toggle="modal" data-bs-target="#staticBackdrops">
  <span aria-hidden="true">&times;</span>
-   join </button>
+    join </button> */}
 
        
       

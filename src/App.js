@@ -19,16 +19,14 @@ import {useState} from "react"
 
 function App(){
 
-    const [isModal,setIsModal] = useState(false);
-
     return <div>
         <Navbar/>
         <Home/>
         
-        <Nav isModal={isModal}/>
+        <Nav />
         <Post/>
         <Post_two/>
-        <SignIn isModal={isModal}/>
+        <SignIn/>
         <Post_five/>
         
 

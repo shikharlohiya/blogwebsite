@@ -212,13 +212,15 @@ function Nav() {
                         <h3> Create Account </h3>
                         <h5>
                           <button
-                            type="button"
                             style={{ border: "none", background: "none" }}
-                            className=" nav-btn2  "
+                            type="button"
+                            className=" nav-btn2  btn "
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrops"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
                           >
-                            Sign up
+                            Sign In
                           </button>
                         </h5>
                       </div>
@@ -292,8 +294,8 @@ function Nav() {
                         className=" nav-btn2  btn "
                         data-bs-toggle="modal"
                         data-bs-target="#staticBackdrops"
-                        data-bs-dismiss="modal" aria-label="Close"
-
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
                       >
                         Sign In
                       </button>

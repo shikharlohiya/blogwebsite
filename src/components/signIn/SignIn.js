@@ -24,8 +24,8 @@ function SignIn(){
                           <input className="w-100 input_name" placeholder="Email" /> 
                           <input className="w-100 input_name" placeholder="Password" />
                           
-                          <div onclick="create_acc()" id="modal-1-create-acc-btn" class="modal-1-create-acc-btn">
-                                        Create Account
+                          <div  id="modal-1-create-acc-btn" class="modal-1-create-acc-btn"  data-bs-dismiss="modal" aria-label="Close">
+                                        Sign In
                            </div>
                            <div className="signup-sm d-flex">
                                         <img style={{margin:"7px"}} src="./image/facebook.png" alt=""/>

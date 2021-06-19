@@ -1,0 +1,31 @@
+.pc #card-article{
+    
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 23px;
+    margin: 10px 0 20px 0px;
+    color: #000000;
+}
+.pc h3{
+   font-size: 1.6rem;
+    font-weight: 600;
+    margin: 15px 0 10px 0px;
+}
+.apply-on-times-job{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    border: 0.7px solid #A9AEB8;
+    border-radius: 8px;
+}
+.apply-on-times-job p{
+    color: #02B875;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0px;
+    cursor: pointer;
+    padding: 2px;
+}

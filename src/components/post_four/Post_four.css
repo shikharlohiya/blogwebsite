@@ -1,0 +1,48 @@
+.modal fade{
+    width: 1000px;
+    height: 1000px;
+}
+.modal-1-create-acc-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    background-color: #2F6CE5;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 20px;
+    height: 40px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.signup-sm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+  /*  background-color: rgba(245, 250, 246, 0.788); */
+    color: #152cac;
+    text-align: center;
+    border-radius: 2px;
+    height: 40px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border: 0.6px solid #D9D9DB;
+    margin-right: 2px;
+}
+.modal-header{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #EFFFF4;
+}
+.modal-header h6{
+    margin: 0;
+    color: #008A45;
+    font-weight: 500;
+}
+
